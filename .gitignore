@@ -3,3 +3,13 @@
 /User/Package Control.merged-ca-bundle
 /User/Package Control.user-ca-bundle
 oscrypto-ca-bundle.crt
+
+# Apply Syntax autogenerates the following:
+User/HTML (Rails).sublime-settings
+User/JSON.sublime-settings
+User/PHP.sublime-settings
+User/Package Control.sublime-settings
+User/Ruby Haml.sublime-settings
+User/Ruby.sublime-settings
+User/XML.sublime-settings
+User/YAML.sublime-settings
