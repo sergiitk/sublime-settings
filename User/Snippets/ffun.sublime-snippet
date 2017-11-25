@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_${1:do_awesomness}(${2:\$${3:value}${4: = ''}}) {
+  ${0:# code...};
+}
+]]></content>
+    <tabTrigger>ffun</tabTrigger>
+    <scope>source.php</scope>
+    <description>function file_name_do_awesomness() {}</description>
+</snippet>

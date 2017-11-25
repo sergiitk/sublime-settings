@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[$0var_dump(${1:variable});${2: die();}]]></content>
+    <tabTrigger>vd</tabTrigger>
+    <scope>source.php</scope>
+    <description>var_dump(); die;</description>
+</snippet>

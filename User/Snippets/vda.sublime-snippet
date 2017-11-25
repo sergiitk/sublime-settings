@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[var_dump(func_get_args()); die();]]></content>
+    <tabTrigger>vda</tabTrigger>
+    <scope>source.php</scope>
+    <description>var_dump(func_get_args()); die;</description>
+</snippet>

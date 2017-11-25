@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"42 Headers",
+		"Alignment",
+		"ApplySyntax",
+		"BracketHighlighter",
+		"Case Conversion",
+		"Crontab Syntax",
+		"DocBlockr",
+		"Duplicate Lines",
+		"Emmet",
+		"Find++",
+		"Generic Config",
+		"Git",
+		"HostsEdit",
+		"Increment Selection",
+		"INI",
+		"Normalize Indentation",
+		"Open Related",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"Sort JavaScript Imports",
+		"SSH Config",
+		"Theme - Spacegray",
+		"TrailingSpaces"
+	]
+}

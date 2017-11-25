@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[console.dir(${1:variable}, { colors: true${2:, showHidden: true }});]]></content>
+    <tabTrigger>cd</tabTrigger>
+    <scope>source.js</scope>
+    <description>console.log(variable, { colors:true, showHidden: true });</description>
+</snippet>

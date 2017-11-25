@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[\$${1:variable} = &drupal_static(__FUNCTION__);
+if (!isset(\$${1:variable})) {
+  \$${1:variable} =  ${2:get_variable};
+}
+return \$${1:variable};]]></content>
+    <tabTrigger>ds</tabTrigger>
+    <scope>source.php</scope>
+    <description>drupal_static</description>
+</snippet>

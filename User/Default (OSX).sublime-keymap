@@ -1,0 +1,98 @@
+[
+  // -------------------------------- Overrides --------------------------------
+
+  // Sidebar.
+  { "keys": ["super+."],            "command": "toggle_side_bar"              },
+  { "keys": ["super+k", "super+b"], "command": "noop"                         },
+
+  // Go to symbol in project.
+  { "keys": ["super+e"],            "command": "goto_symbol_in_project"       },
+
+  // Transpose.
+  { "keys": ["super+t"],            "command": "transpose"                    },
+
+  // ------------------------------ New Bindings -------------------------------
+    // Delete line.
+  { "keys": ["super+shift+e"],      "command":  "run_macro_file",
+    "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
+
+  // Edit project.
+  { "keys": ["super+shift+,"],      "command": "side_bar_project_open_file"},
+
+  // --- Settings toggle
+  // Word wrap.
+  { "keys": ["super+shift+0"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+
+  // Minimap.
+  { "keys": ["super+shift+alt+0"], "command": "toggle_minimap"},
+
+  // --- Open settings files
+  // Open Key Bindings — User.
+  { "keys": ["alt+super+,"],  "command": "edit_settings",
+             "args": {"base_file": "${packages}/Default/Default ($platform).sublime-keymap", "default": "[\n\t$0\n]\n"}},
+
+  // { "keys": ["super+alt+shift+,"],  "command": "open_file",
+  //            "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"   }},
+
+  // Open Key Bindings — Default.
+  // { "keys": ["ctrl+alt+shift+,"],   "command": "open_file",
+  //            "args": {"file": "${packages}/Default/Default (OSX).sublime-keymap"}},
+
+  // Open Settings — Default.
+  // { "keys": ["ctrl+super+,"],   "command": "open_file",
+  //            "args": {"file": "${packages}/Default/Preferences.sublime-settings"}},
+
+    // --------------------------- Split view settings ---------------------------
+  // Move to the left and to the right.
+  { "keys": ["super+alt+shift+right"], "command": "move_to_neighboring_group" },
+  { "keys": ["super+alt+shift+left"],  "command": "move_to_neighboring_group",
+                                                    "args": {"forward": false}},
+  // Switch focus group and select file by index.
+  { "keys": ["super+1"], "command": "focus_group",        "args": {"group": 0}},
+  { "keys": ["super+2"], "command": "focus_group",        "args": {"group": 1}},
+  { "keys": ["super+3"], "command": "focus_group",        "args": {"group": 2}},
+  { "keys": ["super+4"], "command": "focus_group",        "args": {"group": 3}},
+  { "keys": ["super+5"], "command": "focus_group",        "args": {"group": 4}},
+  { "keys": ["super+6"], "command": "focus_group",        "args": {"group": 5}},
+  { "keys": ["super+7"], "command": "focus_group",        "args": {"group": 6}},
+  { "keys": ["super+8"], "command": "focus_group",        "args": {"group": 7}},
+  { "keys": ["super+9"], "command": "focus_group",        "args": {"group": 8}},
+  { "keys": ["ctrl+1"],  "command": "select_by_index",    "args": {"index": 0}},
+  { "keys": ["ctrl+2"],  "command": "select_by_index",    "args": {"index": 1}},
+  { "keys": ["ctrl+3"],  "command": "select_by_index",    "args": {"index": 2}},
+  { "keys": ["ctrl+4"],  "command": "select_by_index",    "args": {"index": 3}},
+  { "keys": ["ctrl+5"],  "command": "select_by_index",    "args": {"index": 4}},
+  { "keys": ["ctrl+6"],  "command": "select_by_index",    "args": {"index": 5}},
+  { "keys": ["ctrl+7"],  "command": "select_by_index",    "args": {"index": 6}},
+  { "keys": ["ctrl+8"],  "command": "select_by_index",    "args": {"index": 7}},
+  { "keys": ["ctrl+9"],  "command": "select_by_index",    "args": {"index": 8}},
+  { "keys": ["ctrl+0"],  "command": "select_by_index",    "args": {"index": 9}},
+
+    // ---------------------------------------------------------------------------
+
+  // ################################# Plugins #################################
+  // ################### SideBarEnhancements ###################
+  { "keys": ["f2"],                          "command": "side_bar_rename"     },
+  { "keys": ["ctrl+n"],                      "command": "side_bar_new_file"   },
+  { "keys": ["super+shift+alt+d"],           "command": "side_bar_duplicate"  },
+  { "keys": ["super+k", "super+backspace"],  "command": "side_bar_delete",
+                                                   "args": {"confirmed": true}},
+  // Reveal
+  { "keys": ["super+alt+shift+."],           "command": "side_bar_reveal"     },
+  { "keys": ["super+shift+."],               "command": "reveal_in_side_bar"  }, // Core
+
+  // ######################### Aligment ########################
+  { "keys": ["ctrl+super+a"], "command": "alignment" },
+
+    // ###################### TrailingSpaces #####################
+  { "keys": ["ctrl+alt+t"], "command": "delete_trailing_spaces" },
+
+  // ####################### FindPlusPlus ######################
+  // { "keys": ["super+alt+shift+f"],  "command": "show_panel", "args": {"panel": "find_in_files"} },
+  { "keys": ["super+alt+f", "f"], "command": "fpp_find_in_project"          },
+  { "keys": ["super+alt+f", "."], "command": "fpp_find_in_panel"            },
+  { "keys": ["super+alt+f", "o"], "command": "fpp_find_in_open_files"       },
+  { "keys": ["super+alt+f", "c"], "command": "fpp_find_in_current_file"     },
+
+  { "keys": ["super+shift+r"], "command": "open_related" }
+]
