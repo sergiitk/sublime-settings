@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"42 Headers",
 		"Alignment",
 		"ApplySyntax",
 		"BracketHighlighter",
