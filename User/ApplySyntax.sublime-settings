@@ -19,5 +19,14 @@
 
     // Put your custom syntax rules here:
     "syntaxes": [
+      {
+          "syntax": "Generic Config/GenericConfig",
+          "extensions": [".env", ".gitattributes", ".gitconfig", ".gitignore", ".npmrc"],
+          "rules": [
+              {"file_path": ".*env\\..*$"},
+              {"file_path": ".*/git/(attributes|config|ignore)$"},
+              {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"}
+          ]
+      },
     ]
 }
