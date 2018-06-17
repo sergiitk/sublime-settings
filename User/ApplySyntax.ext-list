@@ -69,6 +69,7 @@
 	[
 		".gemrc",
 		"YAML-tmLanguage",
+		"yaml.example",
 		"yml",
 		"yml.dist"
 	]

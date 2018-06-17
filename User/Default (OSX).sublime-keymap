@@ -47,6 +47,14 @@
   { "keys": ["super+alt+shift+right"], "command": "move_to_neighboring_group" },
   { "keys": ["super+alt+shift+left"],  "command": "move_to_neighboring_group",
                                                     "args": {"forward": false}},
+
+  // Switch Next and prev group and fold/unfold
+  { "keys": ["super+alt+["], "command": "focus_neighboring_group", "args": {"forward": false} },
+  { "keys": ["super+alt+]"], "command": "focus_neighboring_group" },
+  { "keys": ["super+k", "super+left"], "command": "fold" },
+  { "keys": ["super+k", "super+right"], "command": "unfold" },
+
+
   // Switch focus group and select file by index.
   { "keys": ["super+1"], "command": "focus_group",        "args": {"group": 0}},
   { "keys": ["super+2"], "command": "focus_group",        "args": {"group": 1}},

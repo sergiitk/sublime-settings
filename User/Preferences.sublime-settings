@@ -1,7 +1,26 @@
 {
 	"added_words":
 	[
-		"livestream"
+		"livestream",
+		"config",
+		"app",
+		"conf",
+		"yaml",
+		"github",
+		"jwplayer",
+		"https",
+		"docstrings",
+		"param",
+		"rtype",
+		"amqp",
+		"retryable",
+		"retryability",
+		"fallback",
+		"preconfigured",
+		"pylint",
+		"framerate",
+		"transcoding",
+		"transcoded"
 	],
 	"binary_file_patterns":
 	[

@@ -25,8 +25,13 @@
           "rules": [
               {"file_path": ".*env\\..*$"},
               {"file_path": ".*/git/(attributes|config|ignore)$"},
-              {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"}
+              {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"},
+              {"file_path": ".*/requirements/.+\\.txt$"}
           ]
+      },
+      {
+          "syntax": "YAML/YAML",
+          "extensions": ["yaml.example"]
       },
     ]
 }
