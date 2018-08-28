@@ -12,7 +12,7 @@
   { "keys": ["super+t"],            "command": "transpose"                    },
 
   // ------------------------------ New Bindings -------------------------------
-    // Delete line.
+  // Delete line.
   { "keys": ["super+shift+e"],      "command":  "run_macro_file",
     "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
 
