@@ -1,0 +1,36 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"ApplySyntax",
+		"Babel",
+		"BracketHighlighter",
+		"Case Conversion",
+		"Crontab Syntax",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"Duplicate Lines",
+		"Emmet",
+		"Find++",
+		"Generic Config",
+		"Git",
+		"HostsEdit",
+		"Increment Selection",
+		"INI",
+		"Jinja2",
+		"Normalize Indentation",
+		"Open Related",
+		"Package Control",
+		"Pretty JSON",
+		"Sass",
+		"SideBarEnhancements",
+		"Sort JavaScript Imports",
+		"SSH Config",
+		"Theme - Spacegray",
+		"TrailingSpaces"
+	]
+}
