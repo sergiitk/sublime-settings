@@ -20,7 +20,8 @@
 		"pylint",
 		"framerate",
 		"transcoding",
-		"transcoded"
+		"transcoded",
+		"lifecycle"
 	],
 	"binary_file_patterns":
 	[

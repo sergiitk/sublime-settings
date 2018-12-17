@@ -1,4 +1,10 @@
 {
+	"Bash":
+	[
+		"bash",
+		"sh",
+		"zsh"
+	],
 	"GenericConfig":
 	[
 		".env",
@@ -13,9 +19,6 @@
 	],
 	"INI":
 	[
-		".gitattributes",
-		".gitconfig",
-		".gitignore",
 		".npmrc",
 		"ini.dist"
 	],
