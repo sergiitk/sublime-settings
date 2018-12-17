@@ -1,4 +1,5 @@
 
+
 {
     // If you want exceptions reraised so you can see them in the console, change this to true.
     "reraise_exceptions": false,
@@ -15,23 +16,27 @@
 
     // Control level of logging in the console.
     // (true|false|"verbose")
-    "debug": true,
+    "debug": false,
 
     // Put your custom syntax rules here:
     "syntaxes": [
       {
           "syntax": "Generic Config/GenericConfig",
-          "extensions": [".env", ".gitattributes", ".gitconfig", ".gitignore", ".npmrc"],
+          "extensions": ["env", "gitattributes", "gitconfig", "gitignore", "npmrc"],
           "rules": [
               {"file_path": ".*env\\..*$"},
               {"file_path": ".*/git/(attributes|config|ignore)$"},
               {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"},
-              {"file_path": ".*/requirements/.+\\.txt$"}
+              {"file_path": ".*/requirements/.+\\.txt$"},
           ]
       },
       {
           "syntax": "YAML/YAML",
-          "extensions": ["yaml.example"]
+          "extensions": ["yaml.example"],
+      },
+      {
+          "syntax": "JavaScript/JavaScript",
+          "extensions": ["mjs"],
       },
     ]
 }

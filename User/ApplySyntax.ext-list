@@ -7,11 +7,11 @@
 	],
 	"GenericConfig":
 	[
-		".env",
-		".gitattributes",
-		".gitconfig",
-		".gitignore",
-		".npmrc"
+		"env",
+		"gitattributes",
+		"gitconfig",
+		"gitignore",
+		"npmrc"
 	],
 	"HTML (Rails)":
 	[
