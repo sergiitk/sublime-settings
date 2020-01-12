@@ -98,11 +98,27 @@
   // ####################### FindPlusPlus ######################
   { "keys": ["super+alt+f"], "command": "fpp_find_in_project"          },
   { "keys": ["ctrl+f"], "command": "fpp_find_in_panel"            },
-  { "keys": ["alt+f"],  "command": "show_panel", "args": {"panel": "find_in_files"} },
+  { "keys": ["ctrl+alt+f"],  "command": "show_panel", "args": {"panel": "find_in_files"} },
   // { "keys": ["super+alt+f", "f"], "command": "fpp_find_in_project"          },
   // { "keys": ["super+alt+f", "."], "command": "fpp_find_in_panel"            },
   // { "keys": ["super+alt+f", "o"], "command": "fpp_find_in_open_files"       },
   // { "keys": ["super+alt+f", "c"], "command": "fpp_find_in_current_file"     },
 
-  { "keys": ["super+shift+r"], "command": "open_related" }
+  { "keys": ["super+shift+r"], "command": "open_related" },
+
+  // ####################### Bracket Highlugher ######################
+  // Swap Qoutes
+  {
+      "keys": ["super+'"],
+      "command": "bh_key",
+      "args":
+      {
+          "lines" : true,
+          "plugin":
+          {
+              "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"],
+              "command": "bh_modules.swapquotes"
+          }
+      }
+  },
 ]

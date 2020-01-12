@@ -21,7 +21,12 @@
 		"framerate",
 		"transcoding",
 		"transcoded",
-		"lifecycle"
+		"lifecycle",
+		"pagerbeauty",
+		"Heroku",
+		"Playlist",
+		"Plugin",
+		"checkbox"
 	],
 	"binary_file_patterns":
 	[

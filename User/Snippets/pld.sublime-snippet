@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[  # pylint: disable=${1:redefined-outer-name}]]></content>
-    <tabTrigger>pd</tabTrigger>
+    <tabTrigger>pld</tabTrigger>
     <scope>source.python</scope>
     <description>pylint: disable</description>
 </snippet>

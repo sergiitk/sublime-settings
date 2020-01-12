@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ // eslint-disable-line ${1:prefer-destructuring}]]></content>
+    <tabTrigger>eld</tabTrigger>
+    <scope>source.js</scope>
+    <description>eslint-disable-line</description>
+</snippet>
