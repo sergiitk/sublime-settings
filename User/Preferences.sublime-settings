@@ -27,7 +27,11 @@
 		"Playlist",
 		"Plugin",
 		"checkbox",
-		"precalculating"
+		"precalculating",
+		"checkbox",
+		"Cloudflare",
+		"passthrough",
+		"Fastly"
 	],
 	"binary_file_patterns":
 	[
@@ -59,6 +63,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"margin": 0,

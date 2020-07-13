@@ -5,11 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Alignment",
 		"ApplySyntax",
+		"ayu",
 		"Babel",
 		"BracketHighlighter",
 		"Case Conversion",
+		"Color Scheme - Rainbow",
 		"Crontab",
 		"DocBlockr",
 		"DocBlockr_Python",
@@ -19,10 +22,12 @@
 		"Find++",
 		"Generic Config",
 		"Git",
+		"Github Color Theme",
 		"HostsEdit",
 		"Increment Selection",
 		"INI",
 		"Jinja2",
+		"MarkdownEditing",
 		"Normalize Indentation",
 		"Open Related",
 		"Package Control",
@@ -30,9 +35,12 @@
 		"Sass",
 		"SideBarEnhancements",
 		"Sort JavaScript Imports",
+		"Split Line",
 		"SSH Config",
 		"Terraform",
+		"Theme - Gravity",
 		"Theme - Spacegray",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"Varnish VCL"
 	]
 }

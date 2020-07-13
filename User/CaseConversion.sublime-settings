@@ -1,0 +1,25 @@
+// Settings in here override those in "Case Conversion/CaseConversion.sublime-settings",
+
+{
+    "acronyms": [
+      "POC",
+      "HTML",
+      "CSS",
+      "HTTP",
+      "URL",
+      "GUI",
+      "UI",
+      "ID",
+      "JS",
+      "GA",
+      "GTM",
+      "CI",
+      "II",
+      "III",
+      "IV",
+      "VI",
+      "VII",
+      "VIII",
+      "IX",
+  ]
+}
