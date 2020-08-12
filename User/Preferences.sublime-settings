@@ -31,7 +31,10 @@
 		"checkbox",
 		"Cloudflare",
 		"passthrough",
-		"Fastly"
+		"Fastly",
+		"Datadog",
+		"Sergii",
+		"Tkachenko"
 	],
 	"binary_file_patterns":
 	[
@@ -84,6 +87,7 @@
 	"theme": "ayu-light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"ui_separator": true,
+	"update_check": false,
 	"word_wrap": false,
 	"wrap_width": 80
 }
