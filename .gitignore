@@ -1,3 +1,6 @@
+# Preferences symlink
+/User/Preferences.sublime-settings
+
 /User/Package Control.cache
 /User/Package Control.last-run
 /User/Package Control.merged-ca-bundle
