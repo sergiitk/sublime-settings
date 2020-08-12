@@ -1,7 +1,10 @@
 {
 
-  "wrap_width": 70,
-  "font_face": "Helvetica",
-  "font_size": 16,
+  // "wrap_width": 60,
+  // "font_face": "Helvetica",
+  // "font_size": 16,
+  "font_face": "Menlo",
+  "font_options": [ "subpixel_antialias", "no_round", "directwrite"],
+
   // "highlight_line": true,
 }
