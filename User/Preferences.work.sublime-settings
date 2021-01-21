@@ -61,16 +61,21 @@
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"font_face": "Source Code Variable Regular",
 	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Markdown",
+		"Log Highlight",
 		"Vintage"
 	],
 	"margin": 0,
 	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
 	"match_tags": false,
 	"open_files_in_new_window": false,
 	"rulers":

@@ -3,6 +3,7 @@
 
   // Sidebar.
   { "keys": ["super+."],            "command": "toggle_side_bar"              },
+  { "keys": ["super+escape"],       "command": "toggle_side_bar"              },
   { "keys": ["super+k", "super+b"], "command": "noop"                         },
 
   // Go to symbol in project.
@@ -13,7 +14,7 @@
 
   // ------------------------------ New Bindings -------------------------------
   // Delete line.
-  { "keys": ["super+shift+e"],      "command":  "run_macro_file",
+  { "keys": ["super+shift+backspace"],      "command":  "run_macro_file",
     "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
 
   // Edit project.
@@ -22,6 +23,7 @@
   // --- Settings toggle
   // Word wrap.
   { "keys": ["super+shift+0"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+  { "keys": ["super+shift+-"], "command": "toggle_setting", "args": {"setting": "draw_centered"}},
 
   // Minimap.
   { "keys": ["super+shift+alt+0"], "command": "toggle_minimap"},
@@ -79,6 +81,19 @@
     // ---------------------------------------------------------------------------
 
   // ################################# Plugins #################################
+  // ################### TMP - change case ###################
+  { "keys": ["super+alt+c", "super+alt+s"], "command": "convert_to_snake"},
+  // { "keys": ["super+alt+c", "super+alt+shift+s"], "command": "convert_to_screaming_snake"},
+  // { "keys": ["super+alt+c", "super+alt+c"], "command": "convert_to_camel"},
+  // { "keys": ["super+alt+c", "super+alt+p"], "command": "convert_to_pascal"},
+  // { "keys": ["super+alt+c", "super+alt+d"], "command": "convert_to_dot"},
+  // { "keys": ["super+alt+c", "super+alt+h"], "command": "convert_to_dash"},
+  // { "keys": ["super+alt+c", "super+alt+w"], "command": "convert_to_separate_words"},
+  // { "keys": ["super+alt+c", "super+alt+/"], "command": "convert_to_slash"},
+  // { "keys": ["super+alt+c", "super+alt+b"], "command": "convert_to_back_slash"},
+  // { "keys": ["super+shift+-"], "command": "toggle_snake_camel_pascal"}
+
+
   // ################### SideBarEnhancements ###################
   { "keys": ["f2"],                          "command": "side_bar_rename"     },
   { "keys": ["ctrl+n"],                      "command": "side_bar_new_file"   },
