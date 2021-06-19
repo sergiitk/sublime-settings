@@ -12,6 +12,13 @@
   // Transpose.
   { "keys": ["super+t"],            "command": "transpose"                    },
 
+  // Resotore jump forward
+  { "keys": ["ctrl+shift+minus"], "command": "jump_forward" },
+
+  // Turn off builds to prevent fat finger runs
+  { "keys": ["super+b"], "command": "noop" },
+  { "keys": ["super+shift+b"], "command": "noop"},
+
   // ------------------------------ New Bindings -------------------------------
   // Delete line.
   { "keys": ["super+shift+backspace"],      "command":  "run_macro_file",
@@ -139,4 +146,20 @@
           }
       }
   },
+
+  // ####################### Browser refresh ######################
+  {
+    "keys": ["super+s"],
+    "command": "browser_refresh",
+    "args": {
+      "auto_save": true,
+      "delay": 0.5,
+      "activate": false,
+      "browsers" : ["canary"]
+    },
+    "context": [
+        { "key": "setting.graphviz_refresh", "operand": true },
+        { "key": "selector", "operator": "equal", "operand": "source.dot,source.css" }
+    ],
+  }
 ]

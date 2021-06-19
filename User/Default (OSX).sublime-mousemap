@@ -1,11 +1,25 @@
 [
   // ------------------------------ New Bindings -------------------------------
   // Goto definition
+  // {
+  //   "button": "button1",
+  //   "count": 1,
+  //   "modifiers": ["ctrl"],
+  //   "press_command": "drag_select",
+  //   "command": "goto_definition"
+  // },
   {
     "button": "button1",
     "count": 1,
-    "modifiers": ["ctrl"],
+    "modifiers": ["super", "option"],
     "press_command": "drag_select",
     "command": "goto_definition"
   },
+  // { "button": "button4", "command": "jump_back" },
+  // { "button": "button5", "command": "jump_back" },
+  // { "button": "button6", "command": "jump_back" },
+  // { "button": "button7", "command": "jump_back" },
+  // { "button": "button8", "command": "jump_back" },
+  // { "button": "button9", "command": "jump_back" },
+  // { "button": "button10", "command": "jump_back" },
 ]
