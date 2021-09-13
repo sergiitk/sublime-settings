@@ -1,39 +1,40 @@
 {
-  "bootstrapped": true,
-  "in_process_packages":
-  [
-  ],
-  "installed_packages":
-  [
-    "A File Icon",
-    "Alignment",
-    "ApplySyntax",
-    "ayu",
-    "BracketHighlighter",
-    "Browser Refresh",
-    "Case Conversion",
-    "Dockerfile Syntax Highlighting",
-    "Dracula Color Scheme",
-    "Duplicate Lines",
-    "Emmet",
-    "Find++",
-    "FoldFunctions",
-    "Generic Config",
-    "Git",
-    "Github Color Theme",
-    "HostsEdit",
-    "Increment Selection",
-    "Log Highlight",
-    "Log4jView",
-    "Normalize Indentation",
-    "Open Related",
-    "Package Control",
-    "Pretty JSON",
-    "Protobuf Syntax Hightlighting",
-    "ReIndent",
-    "SideBarEnhancements",
-    "Skins",
-    "SSH Config",
-    "TrailingSpaces"
-  ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Alignment",
+		"ApplySyntax",
+		"ayu",
+		"BazelSyntax",
+		"BracketHighlighter",
+		"Browser Refresh",
+		"Case Conversion",
+		"Dockerfile Syntax Highlighting",
+		"Dracula Color Scheme",
+		"Duplicate Lines",
+		"Emmet",
+		"Find++",
+		"FoldFunctions",
+		"Generic Config",
+		"Git",
+		"Github Color Theme",
+		"HostsEdit",
+		"Increment Selection",
+		"Log Highlight",
+		"Log4jView",
+		"Normalize Indentation",
+		"Open Related",
+		"Package Control",
+		"Pretty JSON",
+		"Protobuf Syntax Hightlighting",
+		"ReIndent",
+		"SideBarEnhancements",
+		"Skins",
+		"SSH Config",
+		"TrailingSpaces"
+	]
 }

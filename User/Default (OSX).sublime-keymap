@@ -12,7 +12,7 @@
   // Transpose.
   { "keys": ["super+t"],            "command": "transpose"                    },
 
-  // Resotore jump forward
+  // Restore jump forward
   { "keys": ["ctrl+shift+minus"], "command": "jump_forward" },
 
   // Turn off builds to prevent fat finger runs
