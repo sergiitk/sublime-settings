@@ -73,7 +73,7 @@
 	],
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Github Color Theme/GitHub.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"dictionary": "Packages/Language - English/en_US.dic",
@@ -81,13 +81,13 @@
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
-	"font_face": "Source Code Variable Regular",
+	"font_face": "Source Code Variable",
 	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Log Highlight",
-		"Vintage"
+		"Vintage",
 	],
 	"margin": 0,
 	"match_brackets": false,
@@ -107,12 +107,12 @@
 	"show_line_endings": true,
 	"show_panel_on_build": true,
 	"show_panel_on_failed_build_only": true,
-	"skin": "User/Light",
+	"skin": "User/Dark - Work",
 	"tab_size": 2,
-	"theme": "ayu-light.sublime-theme",
+	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"ui_separator": true,
 	"update_check": false,
 	"word_wrap": false,
-	"wrap_width": 100
+	"wrap_width": 100,
 }

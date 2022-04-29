@@ -22,7 +22,7 @@
 		".npmrc",
 		"ini.dist"
 	],
-	"JSON":
+	/*"JSON":
 	[
 		".bowerrc",
 		".csslintrc",
@@ -30,7 +30,7 @@
 		".jscsrc",
 		".jshintrc",
 		"geojson"
-	],
+	],*/
 	"PHP":
 	[
 		"inc",
@@ -75,5 +75,5 @@
 		"yaml.example",
 		"yml",
 		"yml.dist"
-	]
+	],
 }
