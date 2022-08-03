@@ -25,7 +25,8 @@
     "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
 
   // Edit project.
-  { "keys": ["super+shift+,"],      "command": "side_bar_project_open_file"},
+  { "keys": ["super+;"],      "command": "side_bar_project_open_file"},
+  // { "keys": ["super+shift+,"],      "command": "side_bar_project_open_file"},
 
   // --- Settings toggle
   // Word wrap.
