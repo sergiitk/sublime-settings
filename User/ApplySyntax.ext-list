@@ -1,9 +1,12 @@
 {
 	"Bash":
 	[
+		".profile",
+		"ash",
 		"bash",
+		"bashrc",
 		"sh",
-		"zsh"
+		"zsh",
 	],
 	"GenericConfig":
 	[
@@ -13,10 +16,10 @@
 		"gitignore",
 		"npmrc"
 	],
-	"HTML (Rails)":
+	/*"HTML (Rails)":
 	[
 		"html.erb"
-	],
+	],*/
 	"INI":
 	[
 		".npmrc",
@@ -31,18 +34,117 @@
 		".jshintrc",
 		"geojson"
 	],*/
-	"PHP":
+	/*"PHP":
 	[
 		"inc",
 		"php3",
 		"php4",
 		"php5",
 		"phtml"
-	],
-	"Python":
+	],*/
+	/*"Python":
 	[
 		"py3",
 		"pyw"
+	],*/
+	/*"Ruby":
+	[
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
+	],*/
+	/*"Ruby Haml":
+	[
+		"haml"
+	],*/
+	/*"Shell-Unix-Generic":
+	[
+		"bash",
+		"sh",
+		"zsh"
+	],*/
+	/*"XML":
+	[
+		"xml.dist"
+	],*/
+	"YAML":
+	[
+		".gemrc",
+		"YAML-tmLanguage",
+		"yaml.example",
+		"yml",
+		"yml.dist",
+	],
+	/*"XML":
+	[
+		"xml.dist"
+	],*/
+	/*"PHP":
+	[
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
+	],*/
+	/*"HTML (Rails)":
+	[
+		"html.erb"
+	],*/
+	/*"Ruby":
+	[
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
+	],*/
+	/*"Shell-Unix-Generic":
+	[
+		"bash",
+		"sh",
+		"zsh"
+	],*/
+	/*"JSON":
+	[
+		".babelrc",
+		".bowerrc",
+		".csslintrc",
+		".eslintrc",
+		".jscsrc",
+		".jshintrc",
+		".stylelintrc",
+		"geojson"
+	],*/
+	/*"Python":
+	[
+		"py3",
+		"pyw"
+	],*/
+	/*"Ruby Haml":
+	[
+		"haml"
+	],*/
+	"XML":
+	[
+		"xml.dist"
+	],
+	"JSON":
+	[
+		".babelrc",
+		".bowerrc",
+		".csslintrc",
+		".eslintrc",
+		".jscsrc",
+		".jshintrc",
+		".stylelintrc",
+		"geojson"
 	],
 	"Ruby":
 	[
@@ -54,26 +156,38 @@
 		"simplecov",
 		"thor"
 	],
+	"Shell-Unix-Generic":
+	[
+		".profile",
+		"ash",
+		"bash",
+		"bashrc",
+		"sh",
+		"zsh"
+	],
+	"Python":
+	[
+		"py3",
+		"pyw"
+	],
+	"HTML (Rails)":
+	[
+		"html.erb"
+	],
 	"Ruby Haml":
 	[
 		"haml"
 	],
-	"Shell-Unix-Generic":
+	"PHP":
 	[
-		"bash",
-		"sh",
-		"zsh"
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
 	],
-	"XML":
+	"HAML":
 	[
-		"xml.dist"
-	],
-	"YAML":
-	[
-		".gemrc",
-		"YAML-tmLanguage",
-		"yaml.example",
-		"yml",
-		"yml.dist"
+		"haml"
 	],
 }
