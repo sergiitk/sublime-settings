@@ -1,0 +1,8 @@
+{
+    "rules": [
+        {
+            "scope": "meta.mapping.key.ini string",
+            "foreground": "var(pink)"
+        }
+    ]
+}

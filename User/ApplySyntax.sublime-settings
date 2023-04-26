@@ -31,12 +31,30 @@
           ]
       },
       {
+          "syntax": "SSH Config/SSH Config",
+          "rules": [
+              {"file_path": ".*/\\.ssh/config(~|$)"},
+              {"file_path": ".*/ssh_config(~|$)"},
+          ],
+      },
+      {
           "syntax": "YAML/YAML",
           "extensions": ["yaml.example"],
       },
       {
           "syntax": "JavaScript/JavaScript",
           "extensions": ["mjs"],
+      },
+      {
+          "syntax": [
+              "ShellScript/Bash",
+              "ShellScript/Shell-Unix-Generic"
+          ],
+          "extensions": ["zshrc", "profile"],
+      },
+      {
+          "syntax": "INI/INI",
+          "extensions": ["cfg", "flagfile"]
       },
     ]
 }

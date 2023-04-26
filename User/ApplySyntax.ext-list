@@ -5,8 +5,10 @@
 		"ash",
 		"bash",
 		"bashrc",
+		"profile",
 		"sh",
 		"zsh",
+		"zshrc",
 	],
 	"GenericConfig":
 	[
@@ -23,7 +25,9 @@
 	"INI":
 	[
 		".npmrc",
-		"ini.dist"
+		"cfg",
+		"flagfile",
+		"ini.dist",
 	],
 	/*"JSON":
 	[
@@ -162,8 +166,10 @@
 		"ash",
 		"bash",
 		"bashrc",
+		"profile",
 		"sh",
-		"zsh"
+		"zsh",
+		"zshrc",
 	],
 	"Python":
 	[
@@ -189,5 +195,9 @@
 	"HAML":
 	[
 		"haml"
+	],
+	"JavaScript":
+	[
+		"mjs"
 	],
 }

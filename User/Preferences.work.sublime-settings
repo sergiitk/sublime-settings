@@ -73,7 +73,7 @@
 	],
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"color_scheme": "Monokai.sublime-color-scheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"dictionary": "Packages/Language - English/en_US.dic",
@@ -87,6 +87,7 @@
 	"ignored_packages":
 	[
 		"Log Highlight",
+		"Log4jView",
 		"Vintage",
 	],
 	"margin": 0,

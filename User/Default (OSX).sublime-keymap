@@ -162,5 +162,19 @@
         { "key": "setting.graphviz_refresh", "operand": true },
         { "key": "selector", "operator": "equal", "operand": "source.dot,source.css" }
     ],
-  }
+  },
+
+  // ####################### INI ######################
+  // Use # for ini comments
+  {
+    "keys": ["super+/"],
+    "command": "toggle_comment",
+    "args": {
+      "block": false,
+      "variant": 2,
+    },
+    "context": [
+      { "key": "selector", "operand": "source.ini" }
+    ],
+  },
 ]
