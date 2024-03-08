@@ -25,8 +25,7 @@
     "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
 
   // Edit project.
-  { "keys": ["super+;"],      "command": "side_bar_project_open_file"},
-  // { "keys": ["super+shift+,"],      "command": "side_bar_project_open_file"},
+  { "keys": ["super+;"], "command": "open_file", "args": {"file": "${project}"}},
 
   // --- Settings toggle
   // Word wrap.
@@ -103,14 +102,13 @@
 
 
   // ################### SideBarEnhancements ###################
-  { "keys": ["f2"],                          "command": "side_bar_rename"     },
-  { "keys": ["ctrl+n"],                      "command": "side_bar_new_file"   },
-  { "keys": ["super+shift+alt+d"],           "command": "side_bar_duplicate"  },
-  { "keys": ["super+k", "super+backspace"],  "command": "side_bar_delete",
-                                                   "args": {"confirmed": true}},
+  { "keys": ["f2"],                         "command": "side_bar_rename"     },
+  { "keys": ["ctrl+n"],                     "command": "side_bar_new_file"   },
+  { "keys": ["super+shift+alt+d"],          "command": "side_bar_duplicate"  },
+  { "keys": ["super+k", "super+backspace"], "command": "side_bar_delete", "args": {"confirmed": true}},
   // Reveal
-  { "keys": ["super+alt+shift+."],           "command": "side_bar_reveal"     },
-  { "keys": ["super+shift+."],               "command": "reveal_in_side_bar"  }, // Core
+  { "keys": ["super+alt+shift+."],          "command": "side_bar_reveal"     },
+  { "keys": ["super+shift+."],              "command": "reveal_in_side_bar"  }, // Core
 
   // ######################### Aligment ########################
   { "keys": ["ctrl+super+a"], "command": "alignment" },
