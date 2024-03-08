@@ -1,8 +1,64 @@
 {
     "rules": [
+        // Shell command args, including -- and -
+        {
+            "scope": "variable.parameter.option.shell, punctuation.definition.parameter.shell",
+            "foreground": "var(white2)",
+            "font_style": "italic"
+        },
+        // Shell command args equal sign
+        {
+            "scope": "meta.function-call.arguments.shell keyword.operator.assignment.shell -meta.interpolation.parameter.shell",
+            "foreground": "var(white)",
+            "font_style": "italic"
+        },
+        // Shell arg value. quoted and unquoted
+        {
+            "scope": "meta.function-call.arguments.shell string.quoted",
+            "foreground": "var(orange2)"
+        },
+        {
+            "scope": "meta.function-call.arguments.shell string.unquoted",
+            "foreground": "var(orange)"
+        },
+        // && and pipes
+        {
+            "scope": "source.shell keyword.operator.logical, keyword.operator.assignment.pipe",
+            "font_style": "glow"
+        },
+        // Shell var assignment
+        {
+            "scope": "meta.variable.shell",
+            "foreground": "#ffcbc9",
+        },
+        // Shell var string interoploation
+        {
+            "scope": "meta.interpolation.parameter.shell variable",
+            "foreground": "var(red)",
+        },
+        // Shell var dollar sign
+        {
+            "scope": "meta.interpolation.parameter.shell punctuation.definition.variable",
+            "foreground": "var(red2)",
+            "font_style": "bold"
+        },
+        // ini / flagfile
         {
             "scope": "meta.mapping.key.ini string",
-            "foreground": "var(pink)"
-        }
+            "foreground": "var(orange)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "punctuation.separator.key-value.ini",
+            "foreground": "var(orange2)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "meta.mapping.value.ini string",
+            "foreground": "var(white2)",
+        },
     ]
 }
+// source.shell.bash meta.function-call.arguments.shell meta.string.shell string.quoted.double.shell
+// source.shell.bash meta.function-call.arguments.shell meta.string.shell string.unquoted.shell
+// source.shell.bash meta.function-call.arguments.shell meta.parameter.option.shell variable.parameter.option.shell

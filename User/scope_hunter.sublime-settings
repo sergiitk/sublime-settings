@@ -1,0 +1,11 @@
+{
+  // Show the scope backtrace (ST >= 4087)
+  "context_backtrace": false,
+
+  // Show color and style at the given point
+  "styling": true,
+
+  // Show current syntax and color scheme paths
+  // (click to open if using tooltips)
+  "file_paths": true,
+}

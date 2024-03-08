@@ -27,7 +27,7 @@
               // {"file_path": ".*env\\..*$"},
               {"file_path": ".*/git/(attributes|config|ignore)$"},
               {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"},
-              {"file_path": ".*/requirements/.+\\.txt$"},
+              // {"file_path": ".*/requirements/.+\\.txt$"},
           ]
       },
       {
@@ -55,6 +55,17 @@
       {
           "syntax": "INI/INI",
           "extensions": ["cfg", "flagfile"]
+      },
+      {
+          "syntax": "Groovy/Groovy",
+          "extensions": ["gradle"]
+      },
+      {
+          "syntax": "requirementstxt/requirementstxt",
+          "rules": [
+              {"globmatch": "**/requirements*.txt"},
+              {"globmatch": "**/requirements*.lock"},
+          ],
       },
     ]
 }

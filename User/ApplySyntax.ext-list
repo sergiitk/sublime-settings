@@ -135,9 +135,99 @@
 	[
 		"haml"
 	],*/
+	/*"XML":
+	[
+		"xml.dist"
+	],*/
+	/*"JSON":
+	[
+		".babelrc",
+		".bowerrc",
+		".csslintrc",
+		".eslintrc",
+		".jscsrc",
+		".jshintrc",
+		".stylelintrc",
+		"geojson"
+	],*/
+	/*"Ruby":
+	[
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
+	],*/
+	"Shell-Unix-Generic":
+	[
+		".profile",
+		"ash",
+		"bash",
+		"bashrc",
+		"profile",
+		"sh",
+		"zsh",
+		"zshrc",
+	],
+	/*"Python":
+	[
+		"py3",
+		"pyw"
+	],*/
+	/*"HTML (Rails)":
+	[
+		"html.erb"
+	],*/
+	"Ruby Haml":
+	[
+		"haml"
+	],
+	/*"PHP":
+	[
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
+	],*/
+	/*"HAML":
+	[
+		"haml"
+	],*/
+	"JavaScript":
+	[
+		"mjs"
+	],
+	"Groovy":
+	[
+		"gradle"
+	],
+	"PHP":
+	[
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
+	],
+	"Python":
+	[
+		"py3",
+		"pyw"
+	],
 	"XML":
 	[
 		"xml.dist"
+	],
+	"HAML":
+	[
+		"haml"
+	],
+	"HTML (Rails)":
+	[
+		"html.erb"
 	],
 	"JSON":
 	[
@@ -159,45 +249,5 @@
 		"rb",
 		"simplecov",
 		"thor"
-	],
-	"Shell-Unix-Generic":
-	[
-		".profile",
-		"ash",
-		"bash",
-		"bashrc",
-		"profile",
-		"sh",
-		"zsh",
-		"zshrc",
-	],
-	"Python":
-	[
-		"py3",
-		"pyw"
-	],
-	"HTML (Rails)":
-	[
-		"html.erb"
-	],
-	"Ruby Haml":
-	[
-		"haml"
-	],
-	"PHP":
-	[
-		"inc",
-		"php3",
-		"php4",
-		"php5",
-		"phtml"
-	],
-	"HAML":
-	[
-		"haml"
-	],
-	"JavaScript":
-	[
-		"mjs"
 	],
 }
