@@ -39,11 +39,11 @@
       },
       {
           "syntax": "YAML/YAML",
-          "extensions": ["yaml.example"],
+          "extensions": ["yaml.example", "okra"],
       },
       {
           "syntax": "JavaScript/JavaScript",
-          "extensions": ["mjs"],
+          "extensions": ["mjs", "gs"],
       },
       {
           "syntax": [
@@ -55,6 +55,10 @@
       {
           "syntax": "INI/INI",
           "extensions": ["cfg", "flagfile"]
+      },
+      {
+          "syntax": "Git/syntax/Git Commit Message",
+          "extensions": ["git-commit"]
       },
       {
           "syntax": "Groovy/Groovy",

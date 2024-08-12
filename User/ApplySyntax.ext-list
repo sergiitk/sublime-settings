@@ -79,6 +79,7 @@
 	[
 		".gemrc",
 		"YAML-tmLanguage",
+		"okra",
 		"yaml.example",
 		"yml",
 		"yml.dist",
@@ -198,7 +199,8 @@
 	],*/
 	"JavaScript":
 	[
-		"mjs"
+		"gs",
+		"mjs",
 	],
 	"Groovy":
 	[
@@ -249,5 +251,9 @@
 		"rb",
 		"simplecov",
 		"thor"
+	],
+	"Git Commit Message":
+	[
+		"git-commit",
 	],
 }
