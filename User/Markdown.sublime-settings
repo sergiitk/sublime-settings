@@ -7,4 +7,5 @@
   // "font_options": [ "subpixel_antialias", "no_round", "directwrite"],
 
   // "highlight_line": true,
+  "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
 }

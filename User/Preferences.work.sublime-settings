@@ -108,11 +108,12 @@
   "skin": "User/Dark - Work",
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "detect_indentation": false,
+  /*"detect_indentation": false,*/
   "theme": "ayu-mirage.sublime-theme",
   "ui_separator": true,
   "update_check": false,
   "word_wrap": false,
   "wrap_width": 100,
   "index_files": true,
+  "mde.auto_fold_link.enabled": false,
 }
