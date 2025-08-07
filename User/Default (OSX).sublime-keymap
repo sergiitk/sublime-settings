@@ -23,6 +23,8 @@
   // Delete line.
   { "keys": ["super+shift+backspace"],      "command":  "run_macro_file",
     "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
+  { "keys": ["super+shift+backspace"],      "command":  "run_macro_file",
+    "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
 
   // Edit project.
   { "keys": ["super+;"], "command": "open_file", "args": {"file": "${project}"}},
