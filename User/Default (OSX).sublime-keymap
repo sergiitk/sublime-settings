@@ -3,6 +3,7 @@
 
   // Sidebar.
   { "keys": ["super+."],            "command": "toggle_side_bar"              },
+  { "keys": ["super+escape"],       "command": "toggle_side_bar"              },
   { "keys": ["super+k", "super+b"], "command": "noop"                         },
 
   // Go to symbol in project.
@@ -14,6 +15,8 @@
   // ------------------------------ New Bindings -------------------------------
   // Delete line.
   { "keys": ["super+shift+e"],      "command":  "run_macro_file",
+    "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
+  { "keys": ["super+shift+backspace"],      "command":  "run_macro_file",
     "args": {"file": "Packages/Default/Delete Line.sublime-macro"}},
 
   // Edit project.
