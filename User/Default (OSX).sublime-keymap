@@ -1,4 +1,7 @@
 [
+  // https://www.sublimetext.com/docs/key_bindings.html
+  // https://docs.sublimetext.io/reference/key_bindings.html
+
   // -------------------------------- Overrides --------------------------------
 
   // Sidebar.
@@ -102,6 +105,16 @@
   // { "keys": ["super+alt+c", "super+alt+b"], "command": "convert_to_back_slash"},
   // { "keys": ["super+shift+-"], "command": "toggle_snake_camel_pascal"}
 
+  // ################### ClearConsole ###################
+  // unset default
+  { "keys": ["alt+k"], "command": "noop"},
+  { "keys": ["alt+k"], "command": "clear_console",
+    "context": [{"key": "panel", "operand": "console"}, {"key": "panel_has_focus"}]
+  },
+  { "keys": ["super+shift+k"], "command": "clear_console",
+    "context": [{"key": "panel", "operand": "console"}, {"key": "panel_has_focus"}]
+  },
+
 
   // ################### SideBarEnhancements ###################
   { "keys": ["f2"],                         "command": "side_bar_rename"     },
@@ -116,7 +129,7 @@
   { "keys": ["ctrl+super+a"], "command": "alignment" },
 
   // ###################### TrailingSpaces #####################
-  { "keys": ["ctrl+alt+t"], "command": "delete_trailing_spaces" },
+  { "keys": ["super+alt+t"], "command": "delete_trailing_spaces" },
 
   // ###################### SplitLines #####################
   { "keys": ["super+shift+'"], "command": "split_line" },

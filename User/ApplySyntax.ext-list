@@ -206,30 +206,165 @@
 	[
 		"gradle"
 	],
-	"PHP":
+	/*"PHP":
 	[
 		"inc",
 		"php3",
 		"php4",
 		"php5",
 		"phtml"
-	],
-	"Python":
+	],*/
+	/*"Python":
 	[
 		"py3",
 		"pyw"
+	],*/
+	/*"XML":
+	[
+		"xml.dist"
+	],*/
+	/*"HAML":
+	[
+		"haml"
+	],*/
+	/*"HTML (Rails)":
+	[
+		"html.erb"
+	],*/
+	/*"JSON":
+	[
+		".babelrc",
+		".bowerrc",
+		".csslintrc",
+		".eslintrc",
+		".jscsrc",
+		".jshintrc",
+		".stylelintrc",
+		"geojson"
+	],*/
+	/*"Ruby":
+	[
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
+	],*/
+	"Git Commit Message":
+	[
+		"git-commit",
 	],
+	/*"HAML":
+	[
+		"haml"
+	],*/
+	/*"PHP":
+	[
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
+	],*/
+	/*"XML":
+	[
+		"xml.dist"
+	],*/
+	/*"Python":
+	[
+		"py3",
+		"pyw"
+	],*/
+	/*"Ruby":
+	[
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
+	],*/
+	"Zsh":
+	[
+		"zsh"
+	],
+	/*"JSON":
+	[
+		".babelrc",
+		".bowerrc",
+		".csslintrc",
+		".eslintrc",
+		".jscsrc",
+		".jshintrc",
+		".stylelintrc",
+		"geojson"
+	],*/
+	/*"HTML (Rails)":
+	[
+		"html.erb"
+	],*/
+	/*"JSON":
+	[
+		".babelrc",
+		".bowerrc",
+		".csslintrc",
+		".eslintrc",
+		".jscsrc",
+		".jshintrc",
+		".stylelintrc",
+		"geojson"
+	],*/
+	/*"XML":
+	[
+		"xml.dist"
+	],*/
+	/*"Ruby":
+	[
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
+	],*/
+	/*"Python":
+	[
+		"py3",
+		"pyw"
+	],*/
+	/*"HTML (Rails)":
+	[
+		"html.erb"
+	],*/
+	/*"HAML":
+	[
+		"haml"
+	],*/
+	/*"PHP":
+	[
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
+	],*/
 	"XML":
 	[
 		"xml.dist"
 	],
-	"HAML":
+	"Ruby":
 	[
-		"haml"
-	],
-	"HTML (Rails)":
-	[
-		"html.erb"
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
 	],
 	"JSON":
 	[
@@ -242,18 +377,25 @@
 		".stylelintrc",
 		"geojson"
 	],
-	"Ruby":
+	"PHP":
 	[
-		"jbuilder",
-		"podspec",
-		"rabl",
-		"rake",
-		"rb",
-		"simplecov",
-		"thor"
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
 	],
-	"Git Commit Message":
+	"HAML":
 	[
-		"git-commit",
+		"haml"
+	],
+	"HTML (Rails)":
+	[
+		"html.erb"
+	],
+	"Python":
+	[
+		"py3",
+		"pyw"
 	],
 }

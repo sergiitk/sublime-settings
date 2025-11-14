@@ -1,6 +1,6 @@
 {
-  "added_words":
-  [
+  // https://www.sublimetext.com/docs/settings.html#editor-settings
+  "added_words": [
     "livestream",
     "config",
     "app",
@@ -52,10 +52,9 @@
     "org",
     "usr",
     "env",
-    "Refactor"
+    "Refactor",
   ],
-  "binary_file_patterns":
-  [
+  "binary_file_patterns": [
     "*.dds",
     "*.eot",
     "*.gif",
@@ -69,7 +68,17 @@
     "*.tga",
     "*.ttf",
     "*.zip",
-    "node_modules/**"
+    "node_modules/**",
+  ],
+  "folder_exclude_patterns": [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    ".Trash",
+    ".Trash-*",
+    // End defaults.
+    "__pycache__",
   ],
   "caret_style": "phase",
   "close_windows_when_empty": false,
@@ -86,6 +95,7 @@
   "highlight_line": true,
   "ignored_packages":
   [
+    "EasySettings",
     "Log Highlight",
     "Log4jView",
     "Vintage",
@@ -98,7 +108,7 @@
   "match_brackets_square": false,
   "match_tags": false,
   "open_files_in_new_window": false,
-  "rulers": [100],
+  "rulers": [150],
   "scroll_past_end": true,
   "show_encoding": true,
   "show_full_path": false,
@@ -108,12 +118,15 @@
   "skin": "User/Dark - Work",
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  /*"detect_indentation": false,*/
+  // "detect_indentation": false,
   "theme": "ayu-mirage.sublime-theme",
   "ui_separator": true,
   "update_check": false,
   "word_wrap": false,
-  "wrap_width": 100,
-  "index_files": true,
+  "wrap_width": 150,
+  "index_files": false,
   "mde.auto_fold_link.enabled": false,
+  "in_process_packages":
+  [
+  ],
 }
