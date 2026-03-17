@@ -352,10 +352,52 @@
 		"php5",
 		"phtml"
 	],*/
-	"XML":
+	/*"XML":
 	[
 		"xml.dist"
-	],
+	],*/
+	/*"Ruby":
+	[
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
+	],*/
+	/*"JSON":
+	[
+		".babelrc",
+		".bowerrc",
+		".csslintrc",
+		".eslintrc",
+		".jscsrc",
+		".jshintrc",
+		".stylelintrc",
+		"geojson"
+	],*/
+	/*"PHP":
+	[
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
+	],*/
+	/*"HAML":
+	[
+		"haml"
+	],*/
+	/*"HTML (Rails)":
+	[
+		"html.erb"
+	],*/
+	/*"Python":
+	[
+		"py3",
+		"pyw"
+	],*/
 	"Ruby":
 	[
 		"jbuilder",
@@ -365,6 +407,18 @@
 		"rb",
 		"simplecov",
 		"thor"
+	],
+	"HAML":
+	[
+		"haml"
+	],
+	"PHP":
+	[
+		"inc",
+		"php3",
+		"php4",
+		"php5",
+		"phtml"
 	],
 	"JSON":
 	[
@@ -377,17 +431,9 @@
 		".stylelintrc",
 		"geojson"
 	],
-	"PHP":
+	"XML":
 	[
-		"inc",
-		"php3",
-		"php4",
-		"php5",
-		"phtml"
-	],
-	"HAML":
-	[
-		"haml"
+		"xml.dist"
 	],
 	"HTML (Rails)":
 	[

@@ -135,7 +135,8 @@
   { "keys": ["super+shift+'"], "command": "split_line" },
 
   // ####################### FindPlusPlus ######################
-  { "keys": ["super+alt+f"], "command": "fpp_find_in_project"          },
+  // { "keys": ["super+alt+f"], "command": "fpp_find_in_project"          },
+  { "keys": ["super+shift+alt+f"], "command": "fpp_find_in_project"          },
   { "keys": ["ctrl+f"], "command": "fpp_find_in_panel"            },
   { "keys": ["ctrl+alt+f"],  "command": "show_panel", "args": {"panel": "find_in_files"} },
   // { "keys": ["super+alt+f", "f"], "command": "fpp_find_in_project"          },
